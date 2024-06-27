@@ -1,19 +1,20 @@
-//
-//  ViewController.swift
-//  TrendingMoviesApp
-//
-//  Created by Mac Cooperation on 25/6/2024.
-//
+
 
 import UIKit
+class ViewController: UIViewController{
 
-class ViewController: UIViewController {
-
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+   
+    @IBAction func GoToBtnAction(_ sender: Any){
+        let mainStoryBorad = UIStoryboard(name: "Main", bundle: nil)
+        let vc = mainStoryBorad.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        self.navigationController!.pushViewController(vc, animated: true)
+    }
+    
+    
 }
 

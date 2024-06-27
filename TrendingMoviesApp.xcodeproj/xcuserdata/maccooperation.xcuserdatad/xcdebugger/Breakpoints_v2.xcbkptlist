@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C063862D-81D3-4B86-9047-8F83C29FF2CA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BF6FC7F-381D-487C-96B8-C0BC951B0172"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrendingMoviesApp/Network/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchTrendingMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2BF6FC7F-381D-487C-96B8-C0BC951B0172 - ab8388bf6cef7411"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TrendingMoviesApp.NetworkManager.fetchTrendingMovies() async throws -&gt; Swift.Array&lt;TrendingMoviesApp.Movie&gt;"
+                  moduleName = "TrendingMoviesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maccooperation/Desktop/TrendingMoviesApp/TrendingMoviesApp/Network/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "2BF6FC7F-381D-487C-96B8-C0BC951B0172 - ab8388bf6cef7411"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TrendingMoviesApp.NetworkManager.fetchTrendingMovies() async throws -&gt; Swift.Array&lt;TrendingMoviesApp.Movie&gt;"
+                  moduleName = "TrendingMoviesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maccooperation/Desktop/TrendingMoviesApp/TrendingMoviesApp/Network/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
