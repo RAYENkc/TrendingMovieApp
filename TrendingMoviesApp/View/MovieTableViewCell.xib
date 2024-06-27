@@ -50,6 +50,7 @@
                     <constraint firstAttribute="trailing" secondItem="KAH-Hm-EZ1" secondAttribute="trailing" constant="10" id="9tp-ye-B9P"/>
                     <constraint firstAttribute="bottomMargin" secondItem="zHR-xl-bgq" secondAttribute="bottom" constant="10" id="GEF-G0-OSV"/>
                     <constraint firstItem="zHR-xl-bgq" firstAttribute="leading" secondItem="exl-WJ-n9H" secondAttribute="trailing" constant="30" id="K7K-rG-mUJ"/>
+                    <constraint firstItem="zHR-xl-bgq" firstAttribute="leading" secondItem="exl-WJ-n9H" secondAttribute="trailing" constant="20" id="MFJ-97-3d2"/>
                     <constraint firstAttribute="bottom" secondItem="exl-WJ-n9H" secondAttribute="bottom" constant="10" id="PjG-MV-Wrm"/>
                     <constraint firstItem="zHR-xl-bgq" firstAttribute="leading" secondItem="exl-WJ-n9H" secondAttribute="trailing" constant="10" id="b2j-rm-SjQ"/>
                     <constraint firstItem="KAH-Hm-EZ1" firstAttribute="leading" secondItem="exl-WJ-n9H" secondAttribute="trailing" constant="10" id="fUH-bf-efV"/>
@@ -58,7 +59,9 @@
                     <constraint firstItem="KAH-Hm-EZ1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="jUb-D4-1od"/>
                     <constraint firstItem="exl-WJ-n9H" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="k9N-Fq-Ewz"/>
                     <constraint firstItem="zHR-xl-bgq" firstAttribute="top" secondItem="KAH-Hm-EZ1" secondAttribute="bottom" constant="10" id="l3E-0y-9NP"/>
+                    <constraint firstAttribute="trailing" secondItem="zHR-xl-bgq" secondAttribute="trailing" constant="20" id="m9w-PD-zzD"/>
                     <constraint firstItem="exl-WJ-n9H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="o42-jm-9f2"/>
+                    <constraint firstAttribute="bottom" secondItem="zHR-xl-bgq" secondAttribute="bottom" constant="10" id="pKB-xd-RLG"/>
                     <constraint firstItem="zHR-xl-bgq" firstAttribute="leading" secondItem="exl-WJ-n9H" secondAttribute="trailing" constant="80" id="yJc-sx-86y"/>
                 </constraints>
             </tableViewCellContentView>
