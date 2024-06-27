@@ -66,47 +66,45 @@
                                     <constraint firstAttribute="width" secondItem="Pfw-MV-0Yw" secondAttribute="height" multiplier="373:238" id="cCe-FT-q7r"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGu-Rg-zvK">
-                                <rect key="frame" x="78" y="317" width="86" height="20.333333333333314"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWo-XD-REz">
-                                <rect key="frame" x="100" y="376" width="42" height="20.333333333333314"/>
+                                <rect key="frame" x="78" y="377.33333333333331" width="41.333333333333343" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xJe-OX-OGP">
-                                <rect key="frame" x="41" y="426.33333333333337" width="311" height="284.33333333333337"/>
+                                <rect key="frame" x="41" y="427.66666666666674" width="311" height="283"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGu-Rg-zvK">
+                                <rect key="frame" x="49.999999999999993" y="317" width="97.333333333333314" height="21.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A6b-xW-RK3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="zWo-XD-REz" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="50" id="1lJ-7R-5VN"/>
                             <constraint firstItem="A6b-xW-RK3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MGu-Rg-zvK" secondAttribute="trailing" symbolic="YES" id="9W6-FW-0ME"/>
                             <constraint firstItem="zWo-XD-REz" firstAttribute="centerX" secondItem="MGu-Rg-zvK" secondAttribute="centerX" id="9t2-71-osj"/>
-                            <constraint firstItem="MGu-Rg-zvK" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="78" id="Crq-sw-UnK"/>
                             <constraint firstItem="zWo-XD-REz" firstAttribute="top" secondItem="MGu-Rg-zvK" secondAttribute="bottom" constant="38.666666666666686" id="FaL-UC-9Q0"/>
                             <constraint firstItem="xJe-OX-OGP" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="41" id="G0S-oQ-pIS"/>
+                            <constraint firstItem="zWo-XD-REz" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="78" id="Htl-TG-0TY"/>
                             <constraint firstItem="xJe-OX-OGP" firstAttribute="top" secondItem="zWo-XD-REz" secondAttribute="bottom" constant="30" id="I8V-uu-kyt"/>
                             <constraint firstItem="Pfw-MV-0Yw" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="10" id="MiL-Ca-MPS"/>
                             <constraint firstItem="Pfw-MV-0Yw" firstAttribute="top" secondItem="A6b-xW-RK3" secondAttribute="top" constant="10" id="Mkt-Zn-fBc"/>
-                            <constraint firstItem="xJe-OX-OGP" firstAttribute="top" secondItem="zWo-XD-REz" secondAttribute="bottom" constant="20" id="TJx-DD-38Q"/>
-                            <constraint firstItem="zWo-XD-REz" firstAttribute="leading" secondItem="MGu-Rg-zvK" secondAttribute="leading" id="Tn6-3w-Dna"/>
                             <constraint firstItem="A6b-xW-RK3" firstAttribute="trailing" secondItem="xJe-OX-OGP" secondAttribute="trailing" constant="41" id="XyU-oy-bEi"/>
                             <constraint firstItem="Pfw-MV-0Yw" firstAttribute="centerX" secondItem="Zo9-4v-gz2" secondAttribute="centerX" id="YwZ-nl-dQs"/>
+                            <constraint firstItem="MGu-Rg-zvK" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="90" id="alq-cE-QYL"/>
                             <constraint firstItem="MGu-Rg-zvK" firstAttribute="top" secondItem="Pfw-MV-0Yw" secondAttribute="bottom" constant="10" id="b7q-U3-rbA"/>
-                            <constraint firstItem="zWo-XD-REz" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="100" id="dzP-iM-NLC"/>
+                            <constraint firstItem="MGu-Rg-zvK" firstAttribute="leading" secondItem="A6b-xW-RK3" secondAttribute="leading" constant="50" id="bvI-Gb-pXD"/>
                             <constraint firstItem="A6b-xW-RK3" firstAttribute="bottom" secondItem="xJe-OX-OGP" secondAttribute="bottom" constant="107.33333333333326" id="kgC-HO-8Xd"/>
-                            <constraint firstItem="xJe-OX-OGP" firstAttribute="top" secondItem="zWo-XD-REz" secondAttribute="bottom" constant="25" id="sQn-CA-VGT"/>
-                            <constraint firstItem="xJe-OX-OGP" firstAttribute="top" secondItem="zWo-XD-REz" secondAttribute="bottom" constant="30" id="tJv-gf-Yr6"/>
                         </constraints>
                     </view>
                     <connections>
