@@ -16,7 +16,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         searchField.delegate = self
         
         moviesTable.register(MovieTableViewCell.nib(), forCellReuseIdentifier: MovieTableViewCell.identifier)
-    
+        // Fetch trending movies
         Task {
             do {
                 let fetchedMovies = try await NetworkManager().fetchTrendingMovies()
@@ -48,7 +48,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         moviesTable.reloadData()
     }
     
-    // Table of Movie
+    // UITableView Delegate and DataSource methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return filteredMovies.count
     }
@@ -75,6 +75,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
+    // Present detailed view of selected movie
     private func showMovieDetails() {
         guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as? DetailsViewController,
               let movie = self.selectedMovie else {
